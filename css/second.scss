@@ -1,0 +1,41 @@
+.header {
+    .header__title {
+        font-weight: 400;
+        font-size: 20px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+    .main__gift {
+        align-items: center;
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .gift__date {
+            font-size: 25px;
+            font-weight: 100;
+            color: white;
+        }
+    }
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 0;
+}
